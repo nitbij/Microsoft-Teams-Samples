@@ -1,18 +1,18 @@
 ﻿{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.12",
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
   "version": "1.0.0",
-  "id": "{{Microsoft-App-Id}}",
-  "packageName": "com.microsoft.teams.tabadaptivecard",
+  "manifestVersion": "1.14",
+  "id": "7d3fa0ad-dcd2-443d-b3d6-e57612350b37",
+  "packageName": "com.microsoft.tabadaptivecard",
+  "name": {
+    "short": "TabWithAdaptiveCard_4",
+    "full": "Tab With Adaptive Card"
+  },
   "developer": {
     "name": "Microsoft",
     "websiteUrl": "https://www.microsoft.com",
     "privacyUrl": "https://www.microsoft.com/privacy",
     "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
-  },
-  "name": {
-    "short": "TabAdaptiveCard",
-    "full": "Tab With Adaptive Card"
   },
   "description": {
     "short": "View Tab With Adaptive Card",
@@ -27,19 +27,22 @@
     {
       "entityId": "homeTab",
       "name": "Home",
-      "contentBotId": "{{BOT-ID}}",
-      "scopes": [ "personal" ]
+      "contentBotId": "25c800f9-4e9f-4f08-87d2-84e692089363",
+      "scopes": [
+        "personal"
+      ]
     },
     {
       "entityId": "youtubeTab",
-      "name": "YouTube",
-      "contentBotId": "{{BOT-ID}}",
-      "scopes": [ "personal" ]
+      "name": "Youtube",
+      "contentBotId": "25c800f9-4e9f-4f08-87d2-84e692089363",
+      "scopes": [
+        "personal"
+      ]
     }
   ],
-  "permissions": [ "identity", "messageTeamMembers" ],
   "validDomains": [
-    "*.ngrok.io",
+    "webapptohost.azurewebsites.net",
     "*.youtube.com",
     "token.botframework.com"
   ]
