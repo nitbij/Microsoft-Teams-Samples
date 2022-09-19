@@ -27,7 +27,7 @@
     {
       "entityId": "homeTab",
       "name": "Home",
-      "contentBotId": "e194c6c8-965c-492d-88f6-d358f16a601a",
+      "contentBotId": "5d181819-855e-4288-ae60-9d0539b97355",
       "scopes": [
         "personal"
       ]
@@ -35,7 +35,7 @@
     {
       "entityId": "youtubeTab",
       "name": "Youtube",
-      "contentBotId": "e194c6c8-965c-492d-88f6-d358f16a601a",
+      "contentBotId": "5d181819-855e-4288-ae60-9d0539b97355",
       "scopes": [
         "personal"
       ]
