@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'pocwebsite'
           slot-name: 'production'
-          publish-profile: ${{ secrets.4zy3lh_PublishProfile}}
+          publish-profile: ${{ secrets.PUBLISHPROFILE_4ZY3LH}}
           package: .
