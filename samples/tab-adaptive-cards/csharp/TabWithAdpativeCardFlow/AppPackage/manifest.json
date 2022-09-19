@@ -5,8 +5,8 @@
   "id": "7d3fa0ad-dcd2-443d-b3d6-e57612350b37",
   "packageName": "com.microsoft.tabadaptivecard",
   "name": {
-    "short": "TabWithAdaptiveCard_4",
-    "full": "Tab With Adaptive Card"
+    "short": "SameTenant_adaptiveTab",
+    "full": "SameTenant adaptivecardTab"
   },
   "developer": {
     "name": "Microsoft",
@@ -42,7 +42,7 @@
     }
   ],
   "validDomains": [
-    "webapptohost.azurewebsites.net",
+    "*.azurewebsites.net",
     "*.youtube.com",
     "token.botframework.com"
   ]
