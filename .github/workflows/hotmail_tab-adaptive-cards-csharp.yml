@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'testpocwebsite'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_Tab_Adaptive_Cards}}
+          publish-profile: ${{ secrets.PUBLISHPROFILE_HOTMAIL}}
           package: .
