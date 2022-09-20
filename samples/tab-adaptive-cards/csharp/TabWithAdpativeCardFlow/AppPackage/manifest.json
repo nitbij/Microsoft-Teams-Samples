@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
-  "version": "1.0.0",
-  "manifestVersion": "1.14",
+  "version": "1.0.1",
+  "manifestVersion": "1.09.20.2",
   "id": "7d3fa0ad-dcd2-443d-b3d6-e57612350b38",
   "packageName": "com.microsoft.tabadaptivecard",
   "name": {
@@ -27,7 +27,7 @@
     {
       "entityId": "homeTab",
       "name": "Home",
-      "contentBotId": "5d181819-855e-4288-ae60-9d0539b97355",
+      "contentBotId": "222400ad-9bec-4184-a044-acbf9def758c",
       "scopes": [
         "personal"
       ]
@@ -35,7 +35,7 @@
     {
       "entityId": "youtubeTab",
       "name": "Youtube",
-      "contentBotId": "5d181819-855e-4288-ae60-9d0539b97355",
+      "contentBotId": "222400ad-9bec-4184-a044-acbf9def758c",
       "scopes": [
         "personal"
       ]
